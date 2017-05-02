@@ -27,3 +27,19 @@ $(function () {
     $("#result").show();
   });
 });
+
+///////Charles's version///////
+// textArray.forEach(function(word1) {
+//       var counter = 0;
+//       textArray.forEach(function(word2){
+//         if (word1 === word2) {
+//           counter ++;
+//         }
+//       });
+
+//       var wordAndCount = word1 + ": " + counter;
+
+//       if ((word1 !== "") && (result.indexOf(wordAndCount) === -1)) {
+//         result.push(wordAndCount);
+//       }
+//     });
